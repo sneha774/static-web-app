@@ -1,8 +1,7 @@
 import React, { Component, lazy, Suspense } from 'react';
 import 'bulma/css/bulma.css';
 import './styles.scss';
-import { Redirect, Route, Switch } from 'react-router-dom';
-import { withRouter } from 'react-router';
+import { Redirect, Route, Switch, withRouter } from 'react-router-dom';
 import { HeaderBar, NavBar, NotFound } from './components';
 import About from './About';
 
